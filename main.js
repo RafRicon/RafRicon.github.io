@@ -38,6 +38,8 @@ function changePhoto1(){
    var image = document.getElementById("FlexForTheGram");
    if(image.src = "https://sites.google.com/a/srvusd.net/dvhs-track-team/_/rsrc/1353285609372/config/customLogo.gif?revision=2"){
       image.src = "https://scontent.cdninstagram.com/t51.2885-19/s150x150/13381005_649182348570877_1733373082_a.jpg";
+      image.style.height = '160px';
+      image.style.width = '120px';
    }
 }
 
