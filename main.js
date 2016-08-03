@@ -24,14 +24,6 @@ function getColor(){
      return "grey";   
     }
 }
-    var n = 1;
-    while(n == 1){
-        setTimeout(changePhoto1(), 1000);
-        setTimeout(changePhoto2(), 1000);
-        setTimeout(changePhoto3(), 1000);
-        setTimeout(changePhoto4(), 1000);
-    }
-
 };
 
 function changePhoto1(){
